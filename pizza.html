@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery</title>
+</head>
+<body>
+    <h1>Order a Pizza</h1>
+    <p>
+        <form action="">
+            <label name="pd-choice" for="pick-up">Pick-Up</label>
+            <input name="pd-choice" id="pick-up" type="radio">
+            <label name="pd-choice" for="delivery">Delivery</label>
+            <input name="pd-choice" id="delivery" type="radio">
+        </form>
+    </p>
+
+    <p>
+        <fieldset>
+            <legend>Name and Adress</legend>
+            <form action="">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="address">Address</label>
+                <input id="adress" type="text">
+            </form>
+        </fieldset>
+    </p>
+
+        <fieldset>
+            <legend>Crust and Toppings</legend>
+            <form action="">
+                <label for="">Type of Crust</label>
+                <select name="" id="">
+                    <option value="" selected disabled></option>
+                    <option value="">Thin and Crispy</option>
+                    <option value="">Hand Tossed</option>
+                    <option value="">Stuffed Crust</option>
+                    <option value="">Pan Crust</option>
+                </select>
+            </form>
+            <p>
+                <form action="">
+                    <label for="">Toppings</label>
+                    <p>
+                        <label for="pepperoni">Pepperoni</label>
+                        <input id="pepperoni" type="checkbox">
+                    </p>
+                    <p>
+                        <label for="sausage">Italian Sausage</label>
+                        <input id="sausage" type="checkbox">
+                    </p>
+                    <p>
+                        <label for="onions">Onions</label>
+                        <input id="onions" type="checkbox">
+                    </p>
+                    <p>
+                        <label for="olives">Olives</label>
+                        <input id="olives" type="checkbox">
+                    </p>
+                    <p>
+                        <label for="pineapples">Pineapples</label>
+                        <input id="pineapples" type="checkbox">
+                    </p>
+                    <p>
+                        <label for="tomatoes">Tomatoes</label>
+                        <input id="tomatoes" type="checkbox">
+                    </p>
+                </form>
+            </p>
+        </fieldset>
+        <p>
+            <fieldset>
+                <legend>Additional Instructions</legend>
+                <form action="">
+                    <textarea name="" id="instructions" cols="20" rows="5"></textarea>
+                </form>
+            </fieldset>
+        </p>
+        <p>
+            <form action="">
+                <input type="submit" value="Submit">
+            </form>
+        </p>
+</body>
+</html>

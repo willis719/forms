@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <fieldset class = "sign-up">
+        <legend>Sign Up</legend>
+        <p>
+            <form action="">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="email">Email</label>
+                <input id="email" type="email">
+            </form>
+        </p>
+
+        <p>
+            <form action="">
+                <label for="password">Password</label>
+                <input id="password" type="password">
+                <label for="tele">Telephone</label>
+                <input id="tele" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </form>
+        </p>
+
+        <p>
+            <form action="">
+                <label for="myself">Tell Me About Yourself</label>
+                <textarea name="" id="myself" cols="20" rows="5"></textarea>
+            </form>
+        </p>
+
+        <p>
+            <form action="">
+                <label for="hear">Where did you hear about us?</label>
+                <select name="" id="hear">
+                    <option value="" selected disabled></option>
+                    <option value="">Television</option>
+                    <option value="">Internet</option>
+                    <option value="">Friend</option>
+                    <option value="">Billboard</option>
+                    <option value="">Video Game</option>
+                </select>
+            </form>
+        </p>
+    </fieldset>
+</body>
+</html>
